@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maeddys Electrical - Home</title>
+
+   <!-- External stylesheets -->
+  <link rel="stylesheet" href="../_Css/Styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========================================
+        HEADER & NAVIGATION SECTION
+        ======================================== -->
+
+  <header>
+    <nav class="container">
+
+  <!-- Company logo and brand name -->
+      <div class="logo">Maeddys Electrical</div>
+
+  <!-- Main Navigation menu -->
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========================================
+       Projects Showcase Section
+       ======================================== -->
+
+<section class="gallery">
+  <div class="container">
+    <h2 class="section-title">Recent Projects</h2>
+
+     <!-- Gallery grid layout for project showcase -->
+    <div class="gallery-grid">
+
+      <!-- Project 1: Residential Installation -->
+      <div class="gallery-item">
+
+      <!-- Project image with lightbox functionality -->
+        <a href="../Images/Residential_Installation.jpg" data-lightbox="gallery" title="Residential Installation">
+          <img src="../Images/Residential_Installation.jpg" alt="Gallery Residential Installation">
+        </a>
+
+      <!-- Project information overlay -->  
+        <div class="gallery-content">
+          <h4>Residential Installation</h4>
+          <p>House rooftop system</p>
+        </div>
+      </div>
+
+      <!-- Project 2: Bakery Solar Setup -->
+      <div class="gallery-item">
+
+        <!-- Project image with lightbox functionality -->
+        <a href="../Images/Bakery_Solar_Setup.jpg" data-lightbox="gallery" title="Bakery Solar Setup">
+          <img src="../Images/Bakery_Solar_Setup.jpg" alt="Gallery Bakery Solar Setup">
+        </a>
+
+        <!-- Project information overlay -->
+        <div class="gallery-content">
+          <h4>Bakery Solar Setup</h4>
+          <p>Energy efficient solution</p>
+        </div>
+      </div>
+
+      <!-- Project 3: Shop Installation -->
+      <div class="gallery-item">
+
+        <!-- Project image with lightbox functionality -->
+        <a href="../Images/Shop_Installation.jpg" data-lightbox="gallery" title="Shop Installation">
+          <img src="../Images/Shop_Installation.jpg" alt="Gallery Shop Installation">
+        </a>
+
+        <!-- Project information overlay -->
+        <div class="gallery-content">
+          <h4>Shop Installation</h4>
+          <p>Custom mounting design</p>
+        </div>
+      </div>
+
+      <!-- Project 4: Commercial Property -->
+      <div class="gallery-item">
+
+        <!-- Project image with lightbox functionality -->
+      <a href="../Images/Commercial_Property.jpg" data-lightbox="gallery" title="Commercial Property">
+          <img src="../Images/Commercial_Property.jpg" alt="Gallery Commercial Property">
+        </a>
+
+        <!-- Project information overlay -->
+        <div class="gallery-content">
+          <h4>Commercial Property</h4>
+          <p>Professional installation</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- ========================================
+       LIGHTBOX MODAL FOR IMAGE VIEWING
+       ======================================== -->
+
+   <!-- Custom lightbox overlay for enhanced image viewing experience -->    
+  <div id="lightbox" class="lightbox">
+
+    <!-- Close button for lightbox -->
+    <span class="close">&times;</span>
+    
+    <!-- Lightbox content container -->
+    <div class="lightbox-content">
+
+    <!-- Main lightbox image (dynamically populated) -->
+      <img class="lightbox-img" src="" alt="">
+
+    <!-- Image caption area (dynamically populated) -->
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+<!-- ========================================
+       FOOTER SECTION
+       ======================================== -->
+
+ <footer>
+  <div class="container">
+
+    <!-- Copyright notice with dynamic year -->
+    <p>&copy; <span id="year"></span> Maeddys Electrical. All rights reserved.</p>
+
+    <!-- Back to top button for improved user experience -->
+    <button id="backToTop" class="back-to-top">↑ Back to Top</button>
+  </div>
+</footer>
+
+  <script src="../Js/Scripts.js"></script>
+</body>
+</html>
